@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean Machado - Sistemas e Ferramentas</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('tecnologia-4k.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      max-width: 800px;
+      margin: 4rem auto;
+    }
+    h1 {
+      color: #003366;
+      margin-bottom: 2rem;
+    }
+    .ferramentas {
+      text-align: left;
+    }
+    .item {
+      background: #f9f9f9;
+      padding: 1.2rem 1.5rem;
+      border-left: 5px solid #003366;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+    .item strong {
+      color: #003366;
+    }
+    .item p {
+      margin: 0.3rem 0 0;
+      color: #444;
+    }
+    .buttons {
+      margin-top: 2rem;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      background-color: #003366;
+      color: #fff;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #0055aa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🛠️ Sistemas e Ferramentas</h1>
+    <div class="ferramentas">
+      <div class="item">
+        <strong>GLPI</strong>
+        <p>Gestão de chamados, ativos de TI e suporte técnico.</p>
+      </div>
+      <div class="item">
+        <strong>Power BI</strong>
+        <p>Criação de dashboards interativos para análise estratégica.</p>
+      </div>
+      <div class="item">
+        <strong>Zabbix</strong>
+        <p>Implantação e administração de monitoramento de infraestrutura e ativos.</p>
+      </div>
+      <div class="item">
+        <strong>Linux</strong>
+        <p>Automação de tarefas, scripts de backup e gerenciamento de servidores.</p>
+      </div>
+      <div class="item">
+        <strong>Windows Server</strong>
+        <p>Gerenciamento de Active Directory, compartilhamentos e serviços.</p>
+      </div>
+      <div class="item">
+        <strong>SQL Server / MariaDB</strong>
+        <p>Administração de bancos de dados, consultas SQL e suporte a sistemas.</p>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <a href="index.html">🔙 Voltar à Página Inicial</a>
+      <a href="curriculo.html">💼 Experiências</a>
+      <a href="formacao.html">🎓 Formação</a>
+    </div>
+  </div>
+</body>
+</html>
