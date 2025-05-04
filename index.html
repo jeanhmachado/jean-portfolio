@@ -14,6 +14,9 @@
     gtag('config', 'G-432MGKB9DJ');
   </script>
 
+  <!-- Favicon vazio para evitar erro 404 -->
+  <link rel="icon" href="data:,">
+
   <style>
     body {
       margin: 0;
@@ -27,6 +30,7 @@
       justify-content: center;
       position: relative;
     }
+
     body::before {
       content: "";
       position: absolute;
@@ -35,6 +39,7 @@
       background-color: rgba(0, 0, 0, 0.6);
       z-index: 0;
     }
+
     .container {
       position: relative;
       z-index: 1;
@@ -45,14 +50,17 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
       max-width: 600px;
     }
+
     h1 {
       color: #003366;
       margin-bottom: 0.5rem;
     }
+
     p {
       color: #444;
       margin-bottom: 2rem;
     }
+
     .buttons a {
       display: inline-block;
       margin: 0.5rem;
@@ -63,9 +71,11 @@
       border-radius: 6px;
       transition: background-color 0.3s;
     }
+
     .buttons a:hover {
       background-color: #0055aa;
     }
+
     .profile-img {
       width: 220px;
       height: 220px;
